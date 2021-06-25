@@ -1,0 +1,11 @@
+var p1price = 100;
+var p2price = 200;
+var p3price = 300;
+var p1quantity = 4;
+var p2quantity = 5;
+var p3quantity = 6;
+var p1Total= p1price * p1quantity;
+var p2Total = p2price * p2quantity;
+var p3Total = p3price * p3quantity;
+var total = p1Total + p2Total + p3Total;
+console.log("Total Amount = " + total);
