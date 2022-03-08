@@ -1,0 +1,29 @@
+* {
+  margin: 0;
+}
+#header {
+  background-color: rgb(0, 128, 74);
+  color: #fff;
+  font-size: 30px;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+#header input {
+  font-size: 18px;
+  border: 1px solid black;
+  border-radius: 15px;
+}
+#header > #menu {
+  display: flex;
+  justify-content: flex-start;
+}
+#header > #menu > p {
+  font-size: 25px;
+  margin-right: 20px;
+}
+@media screen and (max-width: 650px) {
+  #header > #menu {
+    display: none;
+  }
+}
