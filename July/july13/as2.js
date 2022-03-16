@@ -1,12 +1,13 @@
 var arr = ["Apple", "windows", "Linux", "Kindle", "Quiz"];
 
-function oddLength(arr1){
+function oddLength(arr){
     count = 0
-    n= arr1.length
-    if (n%2 !== 0){
-       count=+ arr1.length
+    for(var str of arr){
+        if(str.length%2 !== 0){
+            count+=str.length
+        }
     }
     return count
 }
 
-console.log(arr.reduce(oddLength))
+console.log(oddLength(arr))

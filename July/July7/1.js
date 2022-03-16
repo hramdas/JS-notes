@@ -18,3 +18,12 @@ for (var i=0; i< items.length; i++){
         }
     } console.log(res)
 
+
+// function test(s){
+//     if(s == 'a'){
+//         return 'a'
+//     }
+// }
+
+
+// console.log(test('a'))

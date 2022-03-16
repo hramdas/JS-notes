@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <button onclick="obj()">Object</button>    
+    <button onclick="arr()">Array</button>   
+    <button onclick="fun()">Functions</button>  
+    <button onclick="str()">Strings</button> 
+    <button onclick="num()">Numbers</button>  
+    <button onclick="nul()">null</button> 
+    <button onclick='undef()'>Undefined</button>  
+
+    <!-- <ul>
+        <h1>Objects in JavaScript</h1>
+        <li>An object is a collection of properties.</li>
+        <li>a property is an association between a name (or key) and a value.</li>
+        <li>A property's value can be a function.</li>
+        <li>An object is a standalone entity, with properties and type.</li>
+        <li>Objects are sometimes called associative arrays.</li>
+    </ul> -->
+
+    <script>
+         
+        function obj() {
+            var out = document.createElement('p')
+            out.innerHTML = "<ul><h2>Objects in JavaScript</h2><li>An object is a collection of properties.</li> <li>a property is an association between a name (or key) and a value.</li> <li>A property's value can be a function.</li> <li>An object is a standalone entity, with properties and type.</li><li>Objects are sometimes called associative arrays.</li></ul>"
+            document.body.appendChild(out)
+        }
+
+        
+
+
+    </script>
+</body>
+</html>

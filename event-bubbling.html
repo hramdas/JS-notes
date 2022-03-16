@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>
+        Bubbling Event in Javascript
+    </title>
+    <style>
+        div{
+            min-height:100px;
+            min-width:100px;
+            margin : 30px;
+            border: 1px solid black;
+            
+        }
+        #grandparent{
+            background-color:red !important;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div style=" background-color: black" id="grandparent">
+        <div id="parent">
+            <div id="child">
+                <p>Child</p>
+            </div>
+        </div><br>
+    </div>
+
+    <script>
+        document.getElementById("grandparent")
+        .addEventListener("click", function () {
+            console.log("Grand-parent]!");
+        }, true);
+
+        document.getElementById(
+            "child").addEventListener("click", function () {
+                console.log("Child element!");
+            }, false);
+
+        document.getElementById(
+            "parent").addEventListener("click", function () {
+                console.log("Parent element!");
+            }, false);
+    
+     
+    </script>
+
+</body>
+
+</html>
