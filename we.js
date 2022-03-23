@@ -1,39 +1,33 @@
 // 1 == '1'   //true
 // 1 === '1'   //false
 
-console.log(typeof null)
+console.log(typeof null);
 
-
-
-a = 'Ram'
-console.log(a[0])
+a = "Ram";
+console.log(a[0]);
 
 a[0] = "A";
 
-console.log(a)
+console.log(a);
 
+a = "Das";
+console.log(a.split(""));
 
-a = 'Das'
-console.log(a.split(''))
-
-
-person = { name: "Ram"}
+person = { name: "Ram" };
 
 newperson = person;
 
-newperson.name = 'raj'
+newperson.name = "raj";
 
-N = {int: '123'}
+N = { int: "123" };
 // {int : '123'}.int = '1'
 
-console.log(newperson)
+console.log(newperson);
 
+// let ab = "aa";
 
+// console.log(ab);
 
-    let ab = 'aa'
+// const ab = "aa";
 
-console.log(ab)
-
-    const ab = 'aa'
-
-console.log(ab)
+// console.log(ab);
